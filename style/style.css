@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oleo+Script:wght@400;700&family=SUSE:wght@100..800&display=swap');
+
+.suse-font{
+    font-family: "SUSE", sans-serif;
+    font-size: 15px;
+}
+.oleo-font{
+    font-family: "Oleo script", system-ui;
+}
+@media (max-width: 576px){
+    .offcanvas{
+        width: 80% !important;
+    }
+}
+
+.txt-hover:hover{
+    color: aqua !important;
+}
+
+@media (max-width:576px) {
+    .card .image{
+        height: 110px;
+    }
+    .about01{
+        border-bottom: 1px solid rgb(red, green, blue);
+    }
+}
